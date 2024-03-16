@@ -9,7 +9,7 @@ def view(url):
         r = scraper.post(url)
         if r.status_code == 200:
             data.count += 1
-            print(f"View Sended [{data.count}]") 
+            print(f"View sent [{data.count}]") 
     except:
         pass
 
